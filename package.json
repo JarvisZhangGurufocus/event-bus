@@ -1,15 +1,17 @@
 {
   "name": "gf-event-bus",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "NODE_ENV=production webpack -p"
+    "build": "webpack --mode production"
   },
   "author": "Jarvis Zhang",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.1"
+    "@babel/core": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
   }
 }
