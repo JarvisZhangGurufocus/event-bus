@@ -40,7 +40,7 @@ class EventBus {
     }
     for (let i = 0; i < events.length; i++) {
       var stop = events[i](data)
-      if (stop) {
+      if (stop === true) {
         return
       }
     }
